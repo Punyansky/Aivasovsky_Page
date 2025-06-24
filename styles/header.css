@@ -1,3 +1,7 @@
+.header {
+  margin-bottom: 47px;
+}
+
 .nav__list {
   display: flex;
   justify-content: space-between;
