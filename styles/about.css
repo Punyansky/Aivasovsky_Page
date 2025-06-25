@@ -33,17 +33,7 @@
 
 }
 
-.divider {
-  height: 1px;
-  background-color: var(--font-color-grey);
-  max-width: 420px;
-  width: 100%;
-  border: none;
-  align-content: center;
-  margin: 0 auto;
 
-
-}
 
 
 @media (max-width: 480px) {
