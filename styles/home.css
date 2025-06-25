@@ -32,9 +32,11 @@
     text-align: left;
     max-width: 239px;
     margin-top: 66px;
+    font-size: 32px;
 
   }
   .home__description {
     text-align: left;
+    font-size: 14px;
   }
 }
