@@ -17,25 +17,27 @@
         <nav class="nav" aria-label="Header Navigation">
           <ul class="nav__list" aria-label="Header Navigation List">
             <li class="list__item">
-              <a href="#" class="list__link" aria-label="link to Home">Home</a>
+              <a href="#home_id" class="list__link" aria-label="link to Home">
+                Home
+              </a>
             </li>
             <li class="list__item">
-              <a href="#" class="list__link" aria-label="link to About"
-                >About</a
-              >
+              <a href="#about_id" class="list__link" aria-label="link to About">
+                About
+              </a>
             </li>
             <li class="list__item">
-              <a href="#" class="list__link" aria-label="link to History"
+              <a href="#history_id" class="list__link" aria-label="link to History"
                 >History</a
               >
             </li>
             <li class="list__item">
-              <a href="#" class="list__link" aria-label="link to Portfolio"
+              <a href="#portfolio_id" class="list__link" aria-label="link to Portfolio"
                 >Portfolio</a
               >
             </li>
             <li class="list__item">
-              <a href="#" class="list__link" aria-label="link to Contacts"
+              <a href="#contacts_id" class="list__link" aria-label="link to Contacts"
                 >Contacts</a
               >
             </li>
@@ -44,7 +46,7 @@
       </div>
     </header>
     <main class="main" aria-label="main">
-      <section class="home" aria-label="home section">
+      <section class="home" aria-label="home section" id="home_id">
         <div class="container">
           <h1 class="home__title" aria-label="title">
             Ivan Constantinovich Aivazovski
@@ -59,7 +61,7 @@
           />
         </div>
       </section>
-      <section class="about" aria-label="about section">
+      <section class="about" aria-label="about section" id="about_id">
         <div class="container">
           <h2 class="about__title" aria-label="about title">About</h2>
           <h3 class="about__subtitle-rus" aria-label="subtitle-rus">
@@ -74,7 +76,7 @@
             величайших маринистов всех времён.
           </p>
 
-          <hr class="divider" aria-label="divider">
+          <hr class="divider" aria-label="divider" />
           <h3 class="about__subtitle-eng" aria-label="subtitle-eng">
             Ivan Konstantinovich Aivazovsky - Russian marine painter of Armenian
             origin, collector, philanthropist.
@@ -88,45 +90,99 @@
           </p>
         </div>
       </section>
-      <section class="histiry" aria-label="history section">
+      <section class="histiry" aria-label="history section" id="history_id">
         <div class="container">
-          <h2 class="history__title" aria-label="history title">
-            History
-          </h2>
-          <img src="./assets/webp/aivasovsky-hows-history.webp" alt="aivasovsky-hows-history" class="history__img">
+          <h2 class="history__title" aria-label="history title">History</h2>
+          <img
+            src="./assets/webp/aivasovsky-hows-history.webp"
+            alt="aivasovsky-hows-history"
+            class="history__img"
+          />
           <p class="history__description" aria-label="history description">
-            Дом в котором родился Айвазовский | The house where Aivazovsky was born 
+            Дом в котором родился Айвазовский | The house where Aivazovsky was
+            born
           </p>
         </div>
       </section>
-      <section class="portfolio" aria-label="portfolio section">
+      <section
+        class="portfolio"
+        aria-label="portfolio section"
+        id="portfolio_id"
+      >
         <div class="container">
-          <h2 class="portfolio__title" aria-label="portfolio title">Portfolio</h2>
+          <h2 class="portfolio__title" aria-label="portfolio title">
+            Portfolio
+          </h2>
           <div class="portfolio__item" aria-label="portfolio item">
-            <img src="./assets/webp/Зимний обоз в пути (картина Ивана Айвазовского, 1857) 1.webp" alt="Зимний обоз в пути" class="portfolio__img">
+            <img
+              src="./assets/webp/Зимний обоз в пути (картина Ивана Айвазовского, 1857) 1.webp"
+              alt="Зимний обоз в пути"
+              class="portfolio__img"
+            />
             <p class="portfolio__img-description">
               Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
             </p>
-
           </div>
           <div class="portfolio__item" aria-label="portfolio item">
-            <img src="./assets/webp/Айвазовский_Радуга_1873 1.webp" alt="Айвазовский_Радуга" class="portfolio__img">
+            <img
+              src="./assets/webp/Айвазовский_Радуга_1873 1.webp"
+              alt="Айвазовский_Радуга"
+              class="portfolio__img"
+            />
             <p class="portfolio__img-description">
               Радуга, 1873 г. | Rainbow, 1873
             </p>
-
           </div>
           <div class="portfolio__item" aria-label="portfolio item">
-            <img src="./assets/webp/неаполитанский_залив_утром_1893 1.webp" alt="неаполитанский_залив" class="portfolio__img">
+            <img
+              src="./assets/webp/неаполитанский_залив_утром_1893 1.webp"
+              alt="неаполитанский_залив"
+              class="portfolio__img"
+            />
             <p class="portfolio__img-description">
-              Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893
+              Неаполитанский залив утром, 1893 г. | Gulf of Naples in the
+              morning, 1893
             </p>
-
+            
           </div>
         </div>
+      </main>
+    </section>
+    
+    <footer>
+        <section class="contacts" aria-label="contacts section" id="contacts_id">
+          <div class="container">
+            <h2 class="contacts_title" aria-label="contacts title">
+              Contacts
+            </h2>
+            <button class="contacts_btn">
+              <a class="contacts_link"  target="_blank" href="https://ayvazovskiy.su">
+                ayvazovskiy.su
+              </a>
+            </button>
+            <address class="socials" aria-label="social icons">
+              <a  href="https://youtube.com" target="_blank" class="social_link" aria-label="social link">
+                <img class="social_icon" src="./assets/svg/YouTube_ICO.svg" alt="YouTube_ICO">
+              </a>
+              <a  href="https://Linkedin.com" target="_blank" class="social_link" aria-label="social link">
+                <img class="social_icon" src="./assets/svg/Linkedin_ICO.svg" alt="Linkedin_ICO">
+              </a>
+              <a  href="https://Instagram.com" target="_blank" class="social_link" aria-label="social link">
+                <img class="social_icon" src="./assets/svg/Instagram_ICO.svg" alt="Instagram_ICO">
+              </a>
+              <a  href="https://facebook.com" target="_blank" class="social_link" aria-label="social link">
+                <img class="social_icon" src="./assets/svg/Facebook_ICO.svg" alt="Facebook_ICO">
+              </a>
 
-      </section>
-    </main>
-    <footer></footer>
+              
+            </address>
+            <p class="contacts_description" aria-label="contacts_description">
+              More works you can see in these social networks
+            </p>
+            
+          </div>
+    
+        </section>
+      </footer>
   </body>
 </html>
