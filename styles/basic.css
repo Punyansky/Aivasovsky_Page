@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 
@@ -11,11 +12,13 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg-main);
 }
+
 .container {
   margin: 0 auto;
   max-width: 970px;
   padding: 0 10px;
 }
+
 .divider {
   height: 1px;
   background-color: var(--font-color-grey);

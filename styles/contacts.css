@@ -4,9 +4,6 @@
 
 }
 
-
-
-
 .contacts_title {
   font-weight: 700;
   font-size: 34px;
@@ -34,9 +31,6 @@
 
 }
 
-
-
-
 .socials {
   display: flex;
 
@@ -44,6 +38,11 @@
   align-items: center;
   gap: 30px;
   margin-bottom: 34px;
+  gap: 25px;
+}
+.socials {
+  gap: 30px;
+
 }
 
 .social_icon {
@@ -71,11 +70,10 @@
     height: 55px;
     width: 55px;
   }
-
   .socials {
-    
-    gap: 25px;
-    
+    gap: 25;
   }
+
+  
 
 }
